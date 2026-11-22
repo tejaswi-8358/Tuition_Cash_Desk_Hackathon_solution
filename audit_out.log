@@ -1,0 +1,109 @@
+INFO:     127.0.0.1:55956 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55969 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55972 - "POST /api/customers HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55972 - "POST /api/customers HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:55972 - "POST /api/customers HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55972 - "POST /api/customers HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55972 - "POST /api/customers HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55972 - "POST /api/customers HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55972 - "POST /api/customers HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55972 - "POST /api/customers HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55972 - "POST /api/customers HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55972 - "POST /api/customers HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55978 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55978 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55979 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55982 - "POST /api/invoices HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:55980 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55983 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55981 - "POST /api/invoices HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:55984 - "POST /api/invoices HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55984 - "POST /api/invoices HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55984 - "POST /api/invoices HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55984 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55984 - "POST /api/invoices HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55984 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55387 - "GET /api/invoices?customer_id=29 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55390 - "POST /api/invoices HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55390 - "POST /api/invoices HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55390 - "POST /api/invoices HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55390 - "POST /api/invoices HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55390 - "GET /api/invoices/81 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55396 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55398 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55398 - "POST /api/invoices/82/payments HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55398 - "POST /api/invoices/82/payments HTTP/1.1" 201 Created
+INFO:     127.0.0.1:55398 - "POST /api/invoices/82/payments HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:55398 - "POST /api/invoices/82/payments HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55398 - "POST /api/invoices/82/payments HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55398 - "POST /api/invoices/82/payments HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:55398 - "DELETE /api/invoices/82/payments/70 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:55398 - "GET /api/invoices/82 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55398 - "DELETE /api/invoices/82/payments/71 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:55398 - "GET /api/invoices/82 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55398 - "DELETE /api/invoices/82/payments/70 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55402 - "GET /api/invoices/82 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60856 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:60856 - "POST /api/invoices/83/payments HTTP/1.1" 201 Created
+INFO:     127.0.0.1:60856 - "POST /api/invoices/83/payments HTTP/1.1" 201 Created
+INFO:     127.0.0.1:60856 - "POST /api/invoices/83/payments HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:60856 - "POST /api/invoices/83/payments HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:60856 - "POST /api/invoices/83/payments HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:60856 - "POST /api/invoices/83/payments HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:60856 - "DELETE /api/invoices/83/payments/70 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:60856 - "GET /api/invoices/83 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60856 - "DELETE /api/invoices/83/payments/71 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:60856 - "GET /api/invoices/83 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60856 - "DELETE /api/invoices/83/payments/70 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60857 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:60857 - "POST /api/invoices/84/payments HTTP/1.1" 201 Created
+INFO:     127.0.0.1:60857 - "PATCH /api/invoices/84/status HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:60857 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:60857 - "PATCH /api/invoices/85/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60857 - "POST /api/invoices/85/payments HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:53060 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53060 - "GET /api/customers/29 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63118 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:63118 - "GET /api/invoices/86 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63118 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:63118 - "GET /api/invoices/87 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63118 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:63118 - "GET /api/invoices/88 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63118 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:63118 - "GET /api/invoices/89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63118 - "POST /api/invoices HTTP/1.1" 201 Created
+INFO:     127.0.0.1:63118 - "GET /api/invoices/90 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58323 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58323 - "GET /api/forecast?days=90 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58323 - "GET /api/invoices/77 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58323 - "POST /api/invoices/77/payments HTTP/1.1" 201 Created
+INFO:     127.0.0.1:58323 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58323 - "GET /api/forecast?days=90 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58326 - "GET /api/forecast?days=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58326 - "GET /api/forecast?days=90 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58326 - "GET /api/forecast?days=29 HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:58326 - "GET /api/forecast?days=91 HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:58326 - "POST /api/scenarios HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:58326 - "POST /api/scenarios HTTP/1.1" 201 Created
+INFO:     127.0.0.1:58326 - "GET /api/forecast?days=90&scenario_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58326 - "DELETE /api/scenarios/1 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:58331 - "POST /api/scenarios HTTP/1.1" 201 Created
+INFO:     127.0.0.1:58331 - "GET /api/forecast?days=90&scenario_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58331 - "DELETE /api/scenarios/1 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:51347 - "POST /api/scenarios HTTP/1.1" 201 Created
+INFO:     127.0.0.1:51347 - "GET /api/forecast?days=90&scenario_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51347 - "DELETE /api/scenarios/1 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:51349 - "POST /api/recurring-fees HTTP/1.1" 201 Created
+INFO:     127.0.0.1:51349 - "POST /api/recurring-fees HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:51349 - "POST /api/bills HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:51349 - "POST /api/bills HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:51349 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51351 - "POST /api/invoices/86/reminders HTTP/1.1" 201 Created
+INFO:     127.0.0.1:51351 - "GET /api/invoices/83 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51351 - "GET /api/invoices?status=paid HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57242 - "GET /api/invoices/74 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57242 - "POST /api/invoices/74/reminders HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:57242 - "GET /api/insights HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57242 - "PATCH /api/settings HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:57242 - "PATCH /api/settings HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:57242 - "GET /api/settings HTTP/1.1" 200 OK
