@@ -37,33 +37,17 @@ Then open http://localhost:5173. Use `localhost` rather than `127.0.0.1`, becaus
 cd frontend
 npm run build
 ```
+## Features
+Today: a daily overview with overdue totals, alerts, and a chase list. Send WhatsApp reminders or copy the message.
+Dashboard: headline numbers (outstanding, overdue, received this month, customers), an aging chart, and an overdue table.
+Invoices: create invoices with line items, filter by status, search by customer.
+Invoice detail: record payments (cash, bank, UPI, other), see balance updates, and review reminder history.
+Customers: outstanding and overdue balance per student, with a default payment delay for each customer.
+Forecast: 30/60/90-day cash projection with a baseline and a scenario line, a safe-balance level, and what-if tests (late payment, expense increase, customer leaving).
+Bills: recurring and one-off expenses, which can be paused or reactivated.
+Settings: business name, currency symbol, opening cash, and safe balance.
+Tech stack
+Backend: Python, FastAPI, SQLAlchemy 2
+Frontend: React 18, Vite, React Router, Recharts
+Database: SQLite, stored at backend/data/app.db
 
-## Optional AI insights
-
-Set your key and, optionally, the model in the terminal that runs uvicorn, before starting it:
-
-```powershell
-$env:ANTHROPIC_API_KEY = "your-key"
-$env:ANTHROPIC_MODEL = "claude-haiku-4-5"
-python -m uvicorn app.main:app --port 8000
-```
-
-Without a key the app shows rule-based insights instead, and labels them as rule-based. The model name is configurable because model identifiers change over time.
-
-## Sample vs live data
-
-- The app shows a banner when data is sample data.
-- `python -m app.seed` creates sample records, marked `is_sample=true`.
-- You can replace the sample records by creating your own records.
-- Re-running the seed erases all data in `backend/data/app.db`.
-
-## Known limitations
-
-- Payments are recorded manually only. There is no bank or WhatsApp API. WhatsApp links open wa.me with a prefilled message, which the owner sends.
-- There is no login. The app is single-owner and intended for local use only.
-- `npm audit` reports 4 advisories in dependencies.
-- The frontend bundle is about 620 kB.
-
-## Tests
-
-Backend tests are not yet written.
